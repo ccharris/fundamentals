@@ -1,6 +1,6 @@
 body {
 	font-family: 'Josefin Sans', sans-serif; 
-	background-color: gray;
+	background-color: black;
 }
 header {
 	font-family: 'Lobster', cursive; 
@@ -15,12 +15,12 @@ header {
 	height:20px;
 }
 a:link    {
-	color:black; 
+	color:white; 
 	background-color:transparent; 
 	text-decoration:none
 }
 a:visited {
-	color:gray; 
+	color:white; 
 	background-color:transparent; 
 	text-decoration:none
 }
@@ -30,7 +30,7 @@ a:hover   {
 	text-decoration:underline
 }
 a:active  {
-	color:yellow; 
+	color:red; 
 	background-color:transparent; 
 	text-decoration:underline
 }
@@ -39,18 +39,25 @@ a:active  {
 	width:200px;
 	height:30px;
 	background-color:white;
-	margin-top: 35px;
 	border-radius: 5px;
+	padding-right: 15px;
 }
- .search {
+.search {
  	padding:8px 15px;
     background:rgba(255, 255, 255, 0.2);
     border:0px solid #ffffff;
-   
 }
 #main-content-bar {
-	height:100px;
-	width:80%;
+	height: 60px;
+	width: 80%;
 	margin: 0 auto;
 	background-color: hotpink;
+}
+#main-content-nav {
+	margin-top: 1px;
+	font-size:20pt;
+	padding: 15px 0px 15px 10px;
+}
+.main_link {
+	padding: 5px 20px 0px 20px;
 }
