@@ -1,0 +1,12 @@
+body {
+	background-color: teal;
+}
+#number-one {
+	color: red;
+}
+#number-two {
+	color: purple;
+}
+.first-class {
+	font-family: sans-serif; color: blue;
+}

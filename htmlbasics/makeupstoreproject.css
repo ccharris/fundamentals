@@ -1,0 +1,56 @@
+body {
+	font-family: 'Josefin Sans', sans-serif; 
+	background-color: gray;
+}
+header {
+	font-family: 'Lobster', cursive; 
+	text-align: center; 
+	font-size: 36pt; 
+	color: white;
+}
+#nav_bar { 
+	width: 80%; 
+	margin: 0 auto; 
+	border-radius: 5px;
+	height:20px;
+}
+a:link    {
+	color:black; 
+	background-color:transparent; 
+	text-decoration:none
+}
+a:visited {
+	color:gray; 
+	background-color:transparent; 
+	text-decoration:none
+}
+a:hover   {
+	color:hotpink; 
+	background-color:transparent; 
+	text-decoration:underline
+}
+a:active  {
+	color:yellow; 
+	background-color:transparent; 
+	text-decoration:underline
+}
+#search_bar {
+	float:right; 
+	width:200px;
+	height:30px;
+	background-color:white;
+	margin-top: 35px;
+	border-radius: 5px;
+}
+ .search {
+ 	padding:8px 15px;
+    background:rgba(255, 255, 255, 0.2);
+    border:0px solid #ffffff;
+   
+}
+#main-content-bar {
+	height:100px;
+	width:80%;
+	margin: 0 auto;
+	background-color: hotpink;
+}

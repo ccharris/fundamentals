@@ -1,0 +1,14 @@
+h1 {
+	text-align:center;
+}
+#img_margins {
+	width: 100px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.margins {
+	border: 2px solid blue;
+	margin: 75px 75px 75px 75px;
+} 

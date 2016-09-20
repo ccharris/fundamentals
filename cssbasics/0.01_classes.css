@@ -1,0 +1,15 @@
+body {
+	background-color: lightblue; font-family: 'Playfair Display', serif;
+}
+.css-classes {
+	background-color: purple; color: white;
+}
+.important {
+	color: silver;
+}
+.important-div {
+	background-color: silver; color: purple; 
+}
+.important-div h3 {
+	color: white;
+}
