@@ -2,45 +2,54 @@ body {
 	font-family: 'Josefin Sans', sans-serif; 
 	background-color: black;
 }
+
 #wrapper {
 	min-height: 100%;
     margin-bottom: -70px;
 }
+
 header {
 	font-family: 'Lobster', cursive; 
 	text-align: center; 
 	font-size: 36pt; 
 	color: white;
 }
+
 #nav_bar { 
 	width: 80%; 
 	margin: 0 auto; 
 	border-radius: 5px;
 	height:20px;
 }
+
 #nav_text {
 	color: white;
 }
+
 a:link    {
 	color:white; 
 	background-color:transparent; 
 	text-decoration:none
 }
+
 a:visited {
 	color:white; 
 	background-color:transparent; 
 	text-decoration:none
 }
+
 a:hover   {
 	color:#d45d7d; 
 	background-color:transparent; 
 	text-decoration:underline
 }
+
 a:active  {
 	color:#d45d7d; 
 	background-color:transparent; 
 	text-decoration:underline
 }
+
 #search_bar {
 	margin: 5px;
 	float:right; 
@@ -49,12 +58,14 @@ a:active  {
 	background-color:white;
 	border-radius: 5px;
 }
+
 .search {
  	padding: 8px 15px;
     background:rgba(255, 255, 255, 0.2);
     border:0px solid #ffffff;
     letter-spacing: 1px;
 }
+
 #main-content-bar {
 	height: 40px;
 	width: 80%;
@@ -80,10 +91,80 @@ a:active  {
 	background-color: black;
 	margin: 0 auto;
 }	
+#cssSlider {
+  width: 980px;
+	height: 529px;
+	overflow: hidden;
+	border: 0px solid #666;
+}
 
-#main_promo_picture {
-	width: 100%;
-	height: auto;
+#sliderImages {
+	width : 980px;
+	height: 529px;
+	overflow: hidden;
+	
+	/* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
+	animation: slide 16s infinite;
+	-moz-animation: slide 16s infinite;
+	-webkit-animation: slide 16s infinite;
+	-o-animation: slide 16s infinite;
+}
+
+#sliderImages img {
+	float: left;
+}
+
+@keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -980px;}
+	37%{margin-left: -980px;}
+	40%{margin-left: -1960px;}
+	57%{margin-left: -1960px;}
+	60%{margin-left: -2940px;}
+	77%{margin-left: -2940px;}
+	80%{margin-left: -3920px;}
+	97%{margin-left: -3920px;}
+	100%{margin-left: 0px;}
+}
+
+@-moz-keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -800px;}
+	37%{margin-left: -800px;}
+	40%{margin-left: -1600px;}
+	57%{margin-left: -1600px;}
+	60%{margin-left: -2400px;}
+	77%{margin-left: -2400px;}
+	80%{margin-left: -3200px;}
+	100%{margin-left: -3200px;}
+}
+
+@-webkit-keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -800px;}
+	37%{margin-left: -800px;}
+	40%{margin-left: -1600px;}
+	57%{margin-left: -1600px;}
+	60%{margin-left: -2400px;}
+	77%{margin-left: -2400px;}
+	80%{margin-left: -3200px;}
+	100%{margin-left: -3200px;}
+}
+
+@-o-keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -800px;}
+	37%{margin-left: -800px;}
+	40%{margin-left: -1600px;}
+	57%{margin-left: -1600px;}
+	60%{margin-left: -2400px;}
+	77%{margin-left: -2400px;}
+	80%{margin-left: -3200px;}
+	100%{margin-left: -3200px;}
 }
 
 #product_area {
@@ -119,6 +200,15 @@ a:active  {
 .sections-img {
 	max-width: 100%;
 	height: auto;
+}
+
+.text_for_cats {
+	display: inline-block;
+	width: 33.03%;
+	height: 60px;
+	background-color: hotpink;
+	margin: 0px 0px 0px 0px;
+	letter-spacing: 1px;
 }
 
 #mailing_and_new {
@@ -177,7 +267,7 @@ a:active  {
 }
 
 #new-content {
-	width:61%;
+	width:62%;
 	height:200px;
 	float:right;
 	background-color:hotpink;
@@ -189,7 +279,7 @@ a:active  {
 	max-width: 20%;
 	height: auto;
 	border: 5px solid black;
-	margin: 10px 10px 15px 10px;
+	margin: 10px 10px 10px 10px;
 }
 
 #footer {
@@ -215,13 +305,3 @@ a:active  {
 	padding:0px 5px 10px 0px;
 	text-align: center;
 }
-
-.text_for_cats {
-	display: inline-block;
-	width: 33.03%;
-	height: 60px;
-	background-color: hotpink;
-	margin: 0px 0px 0px 0px;
-	letter-spacing: 1px;
-}
-
