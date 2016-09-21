@@ -2,6 +2,10 @@ body {
 	font-family: 'Josefin Sans', sans-serif; 
 	background-color: black;
 }
+#wrapper {
+	min-height: 100%;
+    margin-bottom: -70px;
+}
 header {
 	font-family: 'Lobster', cursive; 
 	text-align: center; 
@@ -13,6 +17,9 @@ header {
 	margin: 0 auto; 
 	border-radius: 5px;
 	height:20px;
+}
+#nav_text {
+	color: white;
 }
 a:link    {
 	color:white; 
@@ -54,70 +61,79 @@ a:active  {
 	margin: 0 auto;
 	background-color: hotpink;
 }
+
 #main-content-nav {
 	margin-top: 1px;
 	font-size:20pt;
 	padding: 10px 0px 15px 10px;
 	width: 60%;
 	float:left;
+	letter-spacing: 1px;
 }
+
 .main_link {
 	padding: 5px 20px 0px 20px;
 }
+
 #main_body_of_page {
 	width: 80%;
-
 	background-color: black;
 	margin: 0 auto;
-	margin-bottom: 100px;
-}
+}	
+
 #main_promo_picture {
 	width: 100%;
 	height: auto;
 }
+
 #product_area {
 	width: 100%;
-	margin: 0 auto;
 	text-align: center;
 	color:white;
 }
+
 #main-face {
 	display:inline-block;
 	width:33.1%;
-	height:400px;
+	height:380px;
 	background-color:black;
 	vertical-align:top;
 }
+
 #main-eyes {
 	display:inline-block;
 	width:33.1%;
-	height:400px;
+	height:380px;
 	background-color:black;
 	vertical-align: top
 }
+
 #main-lips {
 	display: inline-block;
 	width:33%;
-	height:400px;
+	height:380px;
 	background-color:black;
 	vertical-align: top;
 }
+
 .sections-img {
 	max-width: 100%;
 	height: auto;
 }
+
 #mailing_and_new {
 	width: 100%;
-	margin: 20px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
 	text-align: center;
 
 }
+
 #mailing-list {
 	height:200px;
 	width:30%;
 	background-color: hotpink;
 	padding: 20px 20px 20px 20px;
-	margin: 0px 0px 20px 0px;
+	margin: 0px 0px 10px 0px;
 	float:left;
 }
 
@@ -126,12 +142,10 @@ a:active  {
   align-items: center;
 }
 
-
 .button {
   height: 44px;
   border: none;
 }
-
   
 #email {
   width: 75%;
@@ -142,6 +156,7 @@ a:active  {
   text-indent: 5%;
   border-radius: 5px 0 0 5px;
 }
+
 #cart {
 	float:right;
 }
@@ -160,25 +175,21 @@ a:active  {
 #submit:hover {
   background: #d45d7d;
 }
+
 #new-content {
-	width:60%;
+	width:61%;
 	height:200px;
 	float:right;
 	background-color:hotpink;
 	padding: 20px 20px 20px 20px;
-	margin: 0px 0px 20px 0px;
+	margin: 0px 0px 10px 0px;
 }
 
 .whatsnew-img {
 	max-width: 20%;
 	height: auto;
 	border: 5px solid black;
-	margin: 10px 10px 10px 10px;
-
-}
-#wrapper {
-	min-height: 100%;
-    margin-bottom: -60px;
+	margin: 10px 10px 15px 10px;
 }
 
 #footer {
@@ -188,25 +199,29 @@ a:active  {
 	background-color: gray;
 	margin: 0 auto;
 }
+
 #wrapper:after {
   content: "";
   display: block;
-  height:80px;
+  height:10px;
 }
+
 .footer-text-1 {
 	padding: 10px 5px 0px 5px;
 	text-align: center;
 }
+
 .footer-text-2 {
 	padding:0px 5px 10px 0px;
 	text-align: center;
 }
+
 .text_for_cats {
 	display: inline-block;
 	width: 33.03%;
 	height: 60px;
 	background-color: hotpink;
-	margin: 5px 0px 5px 0px;
-
+	margin: 0px 0px 0px 0px;
+	letter-spacing: 1px;
 }
 
