@@ -32,7 +32,7 @@ if (numDivis % 3 == 0 && numDivis % 2 == 0) {
 } else {
 	console.log("Number cannot by divided evenly by 3 or 2.")
 }
-
+var sillyGitTestVariable = "hi"
 
 
 
