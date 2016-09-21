@@ -30,16 +30,30 @@
 
 // function printNumber(x){
 // 	console.log("The number you entered was: " + x);
-// }
-// printNumber(6);
+// // }
+// // printNumber(6);
 
-function bankPin(x){
-	cardPin = 45678;
-	if(x == cardPin) {
-	console.log(x + " is the correct pin.");
-} else {
-	console.log(x + " is not the correct pin.");
+// function bankPin(x){
+// 	cardPin = 45678;
+// 	if(x == cardPin) {
+// 	console.log(x + " is the correct pin.");
+// } else {
+// 	console.log(x + " is not the correct pin.");
+// }
+// }
+// bankPin(45678);
+
+function numAdd(a, b){
+	return a + b;
 }
-}
-bankPin(45678);
+console.log(numAdd(1,2));
+console.log(numAdd("James", "Paul"))
+
+
+
+
+
+
+
+
 
