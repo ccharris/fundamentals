@@ -325,7 +325,9 @@ input:focus {
   letter-spacing: 1px;
   border-radius: 0 5px 5px 0;
 } 
-
+.hidden {
+	display:none;
+}
 #submit:hover {
   background: #d45d7d;
 }

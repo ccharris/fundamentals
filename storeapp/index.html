@@ -4,6 +4,10 @@
 	<title>Glow Makeup</title>
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>  
+	<!--Internal link to js/jquery file-->
+	<script type="text/javascript" src="jquery.js"></script>
 </head>
 <body>
 	<div id="wrapper">
@@ -91,8 +95,12 @@
 					<p>Want to never miss a sale, new products launches, and restocks? Sign up here for our mailing list.</p>
 					
 					 <div class="input">
-		        		<input type="text" class="button" id="email" name="email" placeholder="NAME@EXAMPLE.COM">
-		        		<input type="submit" class="button" id="submit" value="SIGN UP">
+		        		<input type="text" class="button" id="email"placeholder="NAME@EXAMPLE.COM">
+		        		<!-- <input type="submit" class="button" id="submit" value="SIGN UP"> -->
+		        		<button id="submit" >SUBMIT</button> 
+		      		</div>
+		      		<div class ="hidden" id="thankEmailMessage">
+		      			<p>Thank you for signing up for our mailing list!</p>
 		      		</div>
 	      		</div>
 	      		<div id="new-content">
