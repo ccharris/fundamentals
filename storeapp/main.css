@@ -75,7 +75,7 @@ a:active  {
     border:0px solid #ffffff;
     letter-spacing: 1px;
 }
-
+/*main navigation bar start*/
 #main-content-bar {
 	height: 40px;
 	width: 1100px;
@@ -187,25 +187,25 @@ a:active  {
 
 #main-face {
 	display:inline-block;
-	width:33.1%;
-	height:380px;
+	width:33.05%;
+	height:373px;
 	background-color:black;
 	vertical-align:top;
 }
 
 #main-eyes {
 	display:inline-block;
-	width:33.1%;
-	height:380px;
+	width:33.05%;
+	height:373px;
 	background-color:black;
 	vertical-align: top
 }
 
 #main-lips {
 	display: inline-block;
-	width:33%;
-	height:380px;
-	background-color: black;
+	width:33.05%;
+	height:373px;
+	background-color:black;
 	vertical-align: top;
 }
 
@@ -227,7 +227,6 @@ a:active  {
 	width: 100%;
 	margin: 10px 0px 0px 0px;
 	text-align: center;
-
 }
 
 #mailing-list {

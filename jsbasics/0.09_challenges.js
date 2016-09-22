@@ -24,12 +24,14 @@ console.log(concatString("this is half of a string ", "and this is the other hal
 
 //Silver
 function monthlyBillCalc(electricBill, waterBill, cableBill, mortgagePayment){
-	return electricBill + waterBill + cableBill + mortgagePayment
+	var totalBills = electricBill + waterBill + cableBill + mortgagePayment
+	return totalBills;
 }
 console.log(monthlyBillCalc(80, 150, 100, 500));
 
 //Gold
-function bulkBuyingCalc(quantity, pricePer, taxPercent){
-	return quantity * pricePer + (quantity * pricePer * (taxPercent / 100))
+function bulkBuyingCalc(quantity, pricePer, taxPercent, itemName){
+	var totalPrice = quantity * pricePer + (quantity * pricePer * (taxPercent / 100))
+	return quantity + " " + itemName + " will you cost you $" + totalPrice.toFixed(2);
 }
-console.log(bulkBuyingCalc(40, 1.37, 7))
+console.log(bulkBuyingCalc(40, 1.37, 7, "cars"))
